@@ -22,7 +22,7 @@ export default function ComingSoon() {
           animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
           transition={{ duration: 0.5, ease: "easeOut" }}
         >
-          <h1 className="text-5xl font-extrabold text-center">
+          <h1 className="text-3xl md:text-5xl font-extrabold text-center">
             <span className="text-gray-500">From vision to reality,</span>{" "}
             <br /> shaping experiences that inspire.
           </h1>
@@ -65,13 +65,13 @@ export default function ComingSoon() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, ease: "easeOut", delay: 1 }}
       >
-        <div className="flex items-center justify-center gap-4">
-          <p className="text-sm font-semibold">Coming soon</p>
+        <div className="text-xs md:text-sm flex items-center justify-center gap-4">
+          <p className="font-semibold">Coming soon</p>
           <div className="relative w-28 h-2">
             <div className="absolute inset-0 bg-gray-200 h-2 w-28 rounded-full"></div>
             <div className="absolute inset-0 bg-black h-2 w-11 rounded-full"></div>
           </div>
-          <p className="text-sm text-gray-500">Releasing in 2025</p>
+          <p className=" text-gray-500">Releasing in 2025</p>
         </div>
       </motion.footer>
     </div>
